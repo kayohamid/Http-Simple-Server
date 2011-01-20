@@ -20,9 +20,9 @@ necessario.
 // namespace
 using namespace std;
 
-filemanager::filemanager(char file[32])
+filemanager::filemanager()
 {
-        fileToOpen = file;
+        
 }
 
 filemanager::~filemanager()
@@ -50,7 +50,7 @@ void filemanager::readFile(int limit)
 
 bool filemanager::openFile()
 {
-	lclEntry.open(fileToOpen); // agora o parametro que deve ficar em outro lugar
+	lclEntry.open("../config/kss.conf"); // agora o parametro que deve ficar em outro lugar
 	
 	// checa se a abertura do arquivo falhou, possivel 404
 	if(lclEntry.fail()) 

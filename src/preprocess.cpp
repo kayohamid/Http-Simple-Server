@@ -29,7 +29,7 @@ preprocess::~preprocess()
 
 void preprocess::configProcess()
 {
-        filemanager newFile("../config/kss.conf");
+        filemanager newFile();
         newFile.readFile(256);
 }
 

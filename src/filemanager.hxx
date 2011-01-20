@@ -30,7 +30,7 @@ public:
         // variaveis primeiro
 
         // funcoes depois
-        filemanager(char);
+        filemanager();
         ~filemanager();
 
         void readFile(int limit);
