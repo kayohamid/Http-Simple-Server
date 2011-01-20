@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<gtodo>
+  <category title="filemanager" place="0">
+    <item>
+      <attribute id="1295208319" priority="1" done="0" start_date="734153" enddate="734153" notify="0" endtime="-60" last_edited="1295208319"/>
+      <summary>filemanager</summary>
+      <comment>O filemanager tem que receber de alguma forma o arquivo que vai ser aberto, pode ser por construtor, mas eu nao consegui fazer isso funcionar
+</comment>
+    </item>
+  </category>
+  <category title="logger" place="1">
+    <item>
+      <attribute id="1295208349" priority="1" done="0" start_date="734153" enddate="734153" notify="0" endtime="-60" last_edited="1295208349"/>
+      <summary>logger</summary>
+      <comment>O logger precisa ser construido, nao tem nada.</comment>
+    </item>
+  </category>
+  <category title="bootstrap" place="2"/>
+  <category title="preprocess" place="3"/>
+</gtodo>
