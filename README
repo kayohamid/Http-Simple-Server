@@ -1,13 +1,30 @@
-Resumo:
+# Resumo:
 
-Esse é um projeto com fins de estudo. Procuramos produzir uma nova forma de 
-servir páginas. Não queremos reinventar a roda mas podemos acabar fazendo isso
-algumas vezes para atingir nosso objetivo. 
+- Projeto com fins de estudo. Procuramos produzir uma nova forma de servir 
+documentos na web. Não queremos reinventar a roda mas podemos acabar fazendo 
+isso algumas vezes para atingir nosso objetivo. 
 
-Tecs:
+# Tecs:
 
-Produzido em C++, sem local para comunicação de desenvolvimento, contatos
+- Produzido em C++, sem local para comunicacao de desenvolvimento, contatos
 podem ser feitos pelo Github e e-mail.
 
+# Comentarios:
 
-Autores: Kayo Hamid e Jayr Motta.
+- Ate o momento utilize convencoes de blocos dessa forma;
+
+/* NOME_DO_BLOCO
+parametro: valor
+*/
+
+- No futuro poderemos ter um script que processe isso para moldar um documento
+sobre o codigo fonte, no futuro.
+
+# Coding style
+
+- Sem nenhuma especificacao ate o momento, porem:
+* Limite-se ate 80 caracteres por linha
+* Configure seu editor para usar espacos na tecla TAB (padrao 8 espacos)
+
+
+# Autores: Kayo Hamid e Jayr Motta.
