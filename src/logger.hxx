@@ -4,6 +4,7 @@ author: Kayo Hamid
 */
 
 /* LOGGER.HXX
+categoria: interface;
 info: recebe informacoes de outras partes do codigo, grava no arquivo log/log-day.log,
 concatena o antigo arquivo para log/log-MM.log.
 */
