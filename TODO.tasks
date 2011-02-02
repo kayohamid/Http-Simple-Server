@@ -1,11 +1,12 @@
+<!-- Esse carinha abria no AJUNTA, mas pode servir no futuro se a gente interpretar isso em algum scriptezinho -->
+
 <?xml version="1.0"?>
 <gtodo>
   <category title="filemanager" place="0">
     <item>
       <attribute id="1295208319" priority="1" done="0" start_date="734153" enddate="734153" notify="0" endtime="-60" last_edited="1295208319"/>
       <summary>filemanager</summary>
-      <comment>O filemanager tem que receber de alguma forma o arquivo que vai ser aberto, pode ser por construtor, mas eu nao consegui fazer isso funcionar
-</comment>
+      <comment>O filemanager tem que receber de alguma forma o arquivo que vai ser aberto, pode ser por construtor, mas eu nao consegui fazer isso funcionar</comment>
     </item>
   </category>
   <category title="logger" place="1">
@@ -17,4 +18,9 @@
   </category>
   <category title="bootstrap" place="2"/>
   <category title="preprocess" place="3"/>
+  <category title="geral" place="4"/>
+    <item>
+      <summary>geral</summary>
+      <comment>Licença, precisamos definir uma licença e ajustar o topo dos arquivos.</comment>
+    </item>
 </gtodo>
