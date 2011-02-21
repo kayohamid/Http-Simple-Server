@@ -1,13 +1,7 @@
-kss: bootstrap.o 
-	g++ -o kss bootstrap.o 
+hssd: bootstrap.o 
+	g++ -o build/hssd obj/bootstrap.o 
 
-bootstrap.o: bootstrap.cpp
-	g++ -c -o bootstrap.o bootstrap.cpp
+obj/bootstrap.o: src/bootstrap.cpp
+	g++ -c -o obj/bootstrap.o src/bootstrap.cpp
 
-#preprocess.o: preprocess.cpp
-#	g++ -c -o preprocess.o preprocess.cpp
-
-#filemanager.o: filemanager.cpp 
-#	g++ -c -o filemanager.o fstreams filemanager.cpp
-
-# nao sei pq mas nao entendi esse makefile ainda, mas ja eh um começo
+# isso aqui eh para montadores.
